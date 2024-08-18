@@ -1,0 +1,113 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo-menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icons {
+    display: flex;
+    list-style: none;
+}
+
+.nav-icons li {
+    margin-left: 15px;
+}
+
+.nav-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.cart-count {
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+.new-arrival {
+    background-color: #ff4a4a;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+/* Banner Styling */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fcfdfd;
+}
+
+.banner-content {
+    max-width: 50%;
+}
+
+.banner-title {
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.buy-now-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.banner-img {
+    max-width: 100%;
+    height: auto;
+}
